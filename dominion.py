@@ -669,7 +669,7 @@ even_spread = "even spread"
 weighted = "weighted"
 random = "random"
 
-type = weighted
+type = random
 sets = [base, seaside, prosperity, alchemy, dark_ages, empires, renaissance, allies]
 landscape_cards = projects + events + landmarks
 
@@ -681,7 +681,7 @@ landscape_cards = projects + events + landmarks
 # weights = [5, 0, 5, 0, 0, 0]          # Base + Prosperity
 weights = [0, 1, 1, 0, 1, 3, 1, 3]      # Empires + Allies
 include = []
-exclude = []
+exclude = [possession, barbarian]
 
 cards = []
 
